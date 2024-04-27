@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #ff69b4;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #ff69b4;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #d6418c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Will You Be Mine?</h1>
+        <p>Hey [Crush's Name],</p>
+        <p>I've been wanting to tell you something special...</p>
+        <p>I think you're amazing, and I can't imagine my life without you.</p>
+        <p>Would you do me the honor of being my partner?</p>
+        <button onclick="alert('Yes!')">Yes</button>
+        <button onclick="alert('Sorry, I can't.')" style="margin-left: 10px;">No</button>
+    </div>
+</body
+</html
+
+
